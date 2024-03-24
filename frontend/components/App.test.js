@@ -9,7 +9,7 @@ describe("MVP 2 Testing for AppFunctional", () => {
     test("coordinates render initial state", () => {
       render(<AppFunctional />);
       expect(screen.getByText("Coordinates (2, 2)")).toBeInTheDocument();
-    });
+    }); 
     test("steps render initial state", () => {
       render(<AppFunctional />);
       expect(screen.getByText("You moved 0 times")).toBeInTheDocument();
